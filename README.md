@@ -1,1 +1,1 @@
-# -Part of my school / personal project-
+# Part of my personal and school project
