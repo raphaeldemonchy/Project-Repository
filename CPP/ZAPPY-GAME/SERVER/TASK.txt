@@ -1,0 +1,76 @@
+fonction liste chainer full complet +
+creation liste de client avec server +
+reception/envoi de requete/reponse +
+initier la map de base a laide des arguments +
+time qui sactualise tout au long du server+
+remplir la map d'items +
+distinction entre ui et ai +
+initiation des donnée de l' IA lié avec le socket +
+rendre le select bloquant jusqua que le socket a effectuer la commande +
+system mort de joueur +
+system feed joueur +
+system de team (commprendre les team) +
+
+requete cote gui:
+
++void map_size(Server *server, char *uuid);
++void content_of_tile(Server *server, char *uuid);
++void content_of_the_map(Server *server, char *uuid);
++void name_of_all_the_teams(Server *server, char *uuid);
++void connection_of_a_new_player(Server *server, char *uuid);
++void players_position(Server *server, char *uuid);
++void players_level(Server *server, char *uuid);
++void players_inventory(Server *server, char *uuid);
++void resource_dropping(Server *server, char *uuid, int nbrOfItems);
++void resource_collecting(Server *server, char *uuid, int nbrOfItems);
++void death_of_a_player(Server *server, char *uuid);
++void egg_laying_by_the_player(Server *server, char *uuid);
++void start_of_an_incantation(Server *server, char *uuid);
++void end_of_an_incantation(Server *server, char *uuid);
++void an_egg_was_laid_by_a_player(Server *server, char *uuid);
++void player_connection_for_an_egg(Server *server, char *uuid);
++void death_of_an_egg(Server *server, char *uuid);
+
+requete cote ia :
+
+Forward+
+Left+
+Right+
+Death+
+Look+
+Take, Set Object+
+incantation +
+GetInventory +
+Connect_nbr +
+
+"TAF : _________
+               |
+               |
+               |
+             *****
+              ***
+               *       "
+
+
+ REGLER UN MAX DE CAS OU LE SERVER PEUT SEGFAULT :
+            IA qui meurt sans choisir dequipe
+            QUAND ya plus d IA le server segfault aleatoirement
+
+requete cote gui
+              ~void expulsion(Server *server, char *uuid);
+              ~void broadcast(Server *server, char *uuid);
+              -void time_unit_request(Server *server, char *uuid);
+              -void time_unit_modification(Server *server, char *uuid);
+              -void end_of_game(Server *server, char *uuid);
+              -void message_from_the_server(Server *server, char *uuid);
+              -void unknown_command(Server *server, char *uuid);
+              -void command_parameter(Server *server, char *uuid);
+
+requete cote ia :
+              Broacast -
+              Expulsion -
+
+system de broadcast (commprendre la logique) -
+Systeme End game -
+savoir differrencier si le jeux commence ou si on est encore sur le menu -
+

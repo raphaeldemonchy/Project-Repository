@@ -1,0 +1,12 @@
+#!/bin/bash
+
+while getopts "h" opt; do
+  case ${opt} in
+    h )
+      usage
+      exit 0
+      ;;
+  esac
+done
+
+python3 201yams.py $1 $2 $3 $4 $5 $6
