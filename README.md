@@ -1,1 +1,1 @@
-# -myGlobal-Project-
+# -Part of my school / personal project-
