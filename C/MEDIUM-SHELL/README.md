@@ -45,7 +45,7 @@
 The aim of this project is to re-create a terminal shell with basic and medium commands
 
 <div align="center">
-<img src="images/logo.png" alt="Logo" width="80" height="80">
+<img src="screen1.png" alt="Logo">
 </div>
 
 
