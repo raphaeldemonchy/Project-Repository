@@ -5,9 +5,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="shell-logo.jpg" alt="Logo" width="150" height="150">
 
-  <h3 align="center">Shell Terminal</h3>
+  <h2 align="center">Shell Terminal</h2>
 
 
 
@@ -34,11 +34,10 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
-
+</div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
