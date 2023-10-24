@@ -3,12 +3,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="arcade-logo.jpg" alt="Logo" width="190" height="190">
-  </a>
 
   <h2 align="center">ARCADE GAME</h2>
 
+</div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -24,19 +23,14 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
-</div>
 
 
 
@@ -45,8 +39,9 @@
 
 The ***Arcade*** project is a retro gaming platform in _C++_ with a strong focus on _Object-Oriented_ Programming. It allows users to choose from various games and graphics libraries, loading them dynamically. The project enforces a strict separation between game logic and graphics, utilizing dynamic libraries for this purpose. It emphasizes documentation and collaboration with other groups for interface compatibility.
 
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<div align="center">
+    <img src="screen1.png" alt="Logo">
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
